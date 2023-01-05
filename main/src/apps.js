@@ -7,19 +7,27 @@ const microApps = [
     activeRule: '#/bet-it',
     container: '#subapp-viewport'
   },
-  {
-    name: 'deri-lite',
-    displayName : 'deri.lite',
-    entry: process.env.REACT_APP_DERI_LITE,
-    activeRule: '#/deri-lite',
-    container: '#subapp-viewport'
-  },
+  // {
+  //   name: 'deri-lite',
+  //   displayName : 'deri.lite',
+  //   entry: process.env.REACT_APP_DERI_LITE,
+  //   activeRule: '#/deri-lite',
+  //   container: '#subapp-viewport'
+  // },
   {
     name: 'dip-hunter',
     displayName : 'Dip Hunter',
     entry: process.env.REACT_APP_DIP_HUNTER,
     activeRule: '#/dip-hunter',
     container: '#subapp-viewport'
+  },
+  {
+    name: 'stable-earn',
+    displayName : 'Stable Earn',
+    entry: process.env.REACT_APP_STABLE_EARN,
+    activeRule: '#/stable-earn',
+    container: '#subapp-viewport',
+    default : true,
   },
   // {
   //   name: 'liquidity-mining',
